@@ -1,0 +1,47 @@
+{
+  "status": "SUBMISSION_ACCEPTED_NOTEBOOK_RUNNING",
+  "kernel": "markdd520/biohub-frozen-v9-reviewed-submission",
+  "version": 2,
+  "pipeline": "Frozen V9 Warm2; thresholds 0.995/0.9975; TTA; pool_kernel_um=3; no ILP",
+  "checks": {
+    "frozen_v9_tests": "40 passed",
+    "preexecution_regression": "PASS",
+    "source_manifest_29_files": "PASS",
+    "official_source_hashes": "PASS",
+    "wheelhouse_13_wheels": "PASS"
+  },
+  "wheelhouse_lock": {
+    "zip_sha256": "b38e518b4893972e1b61cc9dbe45006e20e57c3a5c65932776cc1b2a53fe4893",
+    "manifest_sha256": "9e132365f3c182a34d67a2c6b89d78f0bce246bf2bec6960d2f4ef824be3aafa"
+  },
+  "source_manifest_sha256": "615c3550cba46a5032344549d2769201af22c0425beb9349726874669ae9c865",
+  "notebook_sha256": "0dfd51eec19ce493939dc454de805f3dcb5fc536c46e6887cde68984eb23652e",
+  "notes": [
+    "Historical draft outputs are not saved competition submissions.",
+    "Existing local CSV covers visible test only; submission will use full Kaggle offline inference.",
+    "No score improvement claimed; official metric sources and frozen algorithm unchanged."
+  ],
+  "official_baseline_reproduction": {
+    "datasets": 40,
+    "status": "PASS",
+    "edge_jaccard": 0.774393229,
+    "adj_edge_jaccard": 0.767074928,
+    "division_jaccard": 0.038461538,
+    "node_recall": 0.956612481,
+    "score": 0.770921082,
+    "log": "official_baseline_verification.log"
+  },
+  "kernel_status": "COMPLETE",
+  "submission_accepted": true,
+  "submission_bytes": 14451006,
+  "submission_rows": 282579,
+  "submission_sha256": "7ba9b4d0dbf1de1a386f7a731cf2673fe556197e01ad972e9fb32cdfe1a0f960",
+  "blocker": null,
+  "submission_api_result": "403 Forbidden; no submission created",
+  "identity_verification_status": "Submission restriction cleared; authenticated UI accepted Version 2",
+  "submission_runtime_status": "Notebook Running",
+  "submission_method": "Authenticated Kaggle competition web UI",
+  "submission_checked_at_utc": "2026-09-28T18:05:12.942336+00:00",
+  "submission_page": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/submissions",
+  "submission_public_score": null
+}

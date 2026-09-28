@@ -1,0 +1,36 @@
+{
+  "source": "Kaggle editor UI + existing read-only diagnostic cells; no installations/inference/tracking",
+  "notebook_url": "https://www.kaggle.com/code/markdd520/notebookf25c6cd72d/edit",
+  "runtime_access": "AVAILABLE_VIA_EXISTING_AUTHENTICATED_BROWSER",
+  "current_cuda": {
+    "available": true,
+    "device": "Tesla T4",
+    "probe": "existing cell 0 re-executed"
+  },
+  "current_packages": {
+    "torch": "2.10.0+cu128",
+    "polars": "1.35.2",
+    "zarr": "NOT_INSTALLED",
+    "geff": "NOT_INSTALLED",
+    "tracksdata": "NOT_INSTALLED",
+    "ilpy": "NOT_INSTALLED",
+    "pyscipopt": "NOT_INSTALLED"
+  },
+  "current_artifacts": {
+    "source_exists": true,
+    "test_exists": true,
+    "work_root_exists": false,
+    "splits_exists": false,
+    "prediction_0995_exists": false,
+    "prediction_09975_exists": false
+  },
+  "version_history": "Starting Fresh; no saved versions displayed",
+  "output_browser": "Refreshed /kaggle/working: only .virtual_documents",
+  "draft_save_warning": "Failed to save draft observed after read-only diagnostic run; do not rely on autosave",
+  "recovered_manifest": {
+    "bytes": 3542,
+    "sha256": "9e132365f3c182a34d67a2c6b89d78f0bce246bf2bec6960d2f4ef824be3aafa",
+    "method": "Reconstructed from exact saved build source and stdout; byte hash matches historical manifest"
+  },
+  "new_cells": "Static syntax validation only; action switches False; no end-to-end execution"
+}

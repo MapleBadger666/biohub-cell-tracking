@@ -40,7 +40,6 @@ submissions/
 reports/
 scratchpad/
 kaggle/
-notebooks/
 .vscode/
 .env.*
 *.pem

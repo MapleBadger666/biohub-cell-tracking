@@ -43,3 +43,7 @@ It verifies the 40 datasets, exact candidate/intervention counts, overall compon
 ## Research archives
 
 Stage11/Stage12 scripts may need historical reports, action tables, or checkpoints not shipped here. Source-derived providers include explicit source hashes and reject mismatches. Resolve provenance with evidence before changing contracts or promoting an experimental strategy.
+
+The `notebooks/` directory preserves all 14 exploratory notebooks as source-only archives; existing outputs were retained locally before stripping. These notebooks contain historical paths, experiments, and repair cells and are not an ordered end-to-end workflow. Do not run every cell as a reproduction procedure.
+
+For the reviewed Kaggle execution, see `notebooks/submission/README.md`. The Python 3.12/Linux wheel builder is specific to that offline runtime, while the local project uses Python 3.11. `configs/warm2_model_architecture.json` records the historical model architecture; inference overrides the pooling kernel to 3 µm. Weights and competition data must be obtained separately.

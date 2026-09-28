@@ -43,7 +43,7 @@ On **40 held-out Fold0 datasets**, a fresh run on September 28, 2026 reproduced 
 | Division Jaccard | 0.038461538 |
 | Node recall | 0.956612481 |
 
-This is **local baseline reproduction**, not a leaderboard score or a claimed new improvement. Division recovery remains a weakness. The reviewed Kaggle Notebook completed both inference passes and official CSV roundtrip checks, but competition acceptance is still pending account verification; no leaderboard result is claimed.
+This is **local baseline reproduction**, not a leaderboard score or a claimed new improvement. Division recovery remains a weakness. The reviewed Kaggle Notebook completed both inference passes and official CSV roundtrip checks. Kaggle accepted Version 2 on September 28, 2026; the last recorded competition status was `Notebook Running`, with no leaderboard score yet.
 
 See [validation evidence and limitations](docs/VALIDATION.md), the [official reproduction transcript](docs/evidence/frozen_v9_reproduction.txt), and the [research design](docs/RESEARCH.md).
 
@@ -59,6 +59,8 @@ See [validation evidence and limitations](docs/VALIDATION.md), the [official rep
 | [`configs/cv_manifest.lock.json`](configs/cv_manifest.lock.json) | Locked cross-validation design |
 
 The Stage11/Stage12 modules and scripts preserve research experiments and source contracts. They are not all promoted into the reviewed Frozen V9 submission, and some require historical local artifacts.
+
+The [research notebooks](notebooks/README.md) now retain the exploratory cell sources, with execution outputs removed from the public copies. The [submission archive](notebooks/submission/README.md) includes the reviewed offline notebook, wheelhouse builder, and exact input hashes. [Historical recovery and legacy code](research/README.md) is preserved separately from the main pipeline. See the [file audit](docs/FILE_AUDIT.md) for the upload verification and local evidence retained during cleanup.
 
 ## Setup and tests
 
@@ -80,7 +82,7 @@ Full training and official-metric reproduction require competition access, the c
 
 ## Repository scope
 
-Included: reusable source, research scripts, tests, split metadata, the dependency lock, and curated evidence. Competition images, annotations, weights, predictions, submissions, wheel bundles, caches, local notebook outputs, and bulk experiment reports are excluded. The upstream official repository is fetched at its locked commit, not vendored or edited in place.
+Included: reusable source, research scripts, tests, source-only exploratory and submission notebooks, split metadata, environment/input manifests, the dependency lock, and curated evidence. Competition images, annotations, weights, predictions, submission CSVs, wheel bundles, caches, local notebook outputs, and bulk experiment reports are excluded. The upstream official repository is fetched at its locked commit, not vendored or edited in place.
 
 ## Attribution
 

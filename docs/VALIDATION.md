@@ -21,8 +21,8 @@ The failures indicate unresolved provenance contracts. Expected hashes have not 
 
 The reviewed Frozen V9 Notebook completed offline GPU execution, both detection thresholds, frozen graph reconstruction, structural CSV validation, and official CSV/GEFF roundtrip checks. Its saved output had 282,579 rows. The prediction file is deliberately excluded from GitHub.
 
-Competition submission acceptance is pending Kaggle identity verification. There is no confirmed leaderboard score, rank, medal, or prize to report. The saved execution is an operational check, not a new metric improvement.
+Kaggle identity verification cleared the submission restriction, and the authenticated competition page accepted Version 2 on September 28, 2026. The last recorded competition status was `Notebook Running`; there is no confirmed leaderboard score, rank, medal, or prize to report. The saved execution is an operational check, not a new metric improvement. The [submission record](../notebooks/submission/review_status.json) preserves the earlier rejected API attempt as history, followed by the accepted web submission.
 
 ## Reproducibility scope
 
-The repository includes source and the `uv.lock` dependency resolution. The official evaluator is independently fetched at a fixed commit. Kaggle used a separately reviewed offline wheel overlay; the generic local setup is not represented as bit-for-bit identical to that runtime. Archived notebook outputs, raw annotations, models, and prediction GEFFs are not distributed.
+The repository includes source and the `uv.lock` dependency resolution. The official evaluator is independently fetched at a fixed commit. Kaggle used a separately reviewed offline wheel overlay; its builder, lock, and environment report are now archived, but the generic local setup is not represented as bit-for-bit identical to that runtime. Archived notebook outputs, raw annotations, models, and prediction GEFFs are not distributed.

@@ -1,0 +1,67 @@
+Observed via the authenticated Kaggle editor during this audit.
+No package installation, inference, tracking, solver, GT evaluation or submission executed.
+Existing read-only cells were re-executed without changing their source.
+
+14.15C-2-R1 (completed):
+PYTHON = /usr/bin/python3
+PLATFORM = linux
+SOURCE_EXISTS = True
+SOURCE_MANIFEST_EXISTS = True
+TEST_DATA_EXISTS = True
+WORK_ROOT_EXISTS = False
+SPLITS_EXISTS = False
+torch = 2.10.0+cu128
+polars = 1.35.2
+zarr/geff/tracksdata/ilpy/pyscipopt = NOT_INSTALLED
+DET_0995_DIR_EXISTS = False
+DET_09975_DIR_EXISTS = False
+Both GEFF counts = 0
+RECOVERY_STATUS=PREDICTION_ARTIFACTS_MISSING_OR_INCOMPLETE
+
+Existing first cell CUDA availability probe (completed):
+PYTHON: /usr/bin/python3
+PLATFORM: linux
+KAGGLE_WORKING: True
+CUDA_AVAILABLE: True
+GPU: Tesla T4
+
+14.15A-7-R1 full-input recursive discovery:
+Interrupted by Codex because traversing all competition input was unnecessarily slow.
+No PASS claimed. Replaced with the existing targeted 14.15A-3 check below.
+
+14.15A-3 (completed in 0.268 s according to UI):
+ROOT = /kaggle/input/datasets/markdd520/biohub-frozen-v9-warm2-bundle/bundle
+MANIFEST_SHA256 = 615c3550cba46a5032344549d2769201af22c0425beb9349726874669ae9c865
+MANIFEST_FILE_COUNT = 29
+All 29 files: size and SHA PASS
+BUNDLE_SHA_AND_FILE_SET=PASS
+torch            2.10.0+cu128
+numpy            2.0.2
+pandas           2.3.3
+scipy            1.16.3
+polars           1.35.2
+zarr             NOT_INSTALLED
+numcodecs        NOT_INSTALLED
+geff             NOT_INSTALLED
+tracksdata       NOT_INSTALLED
+dask             2026.1.1
+blosc2           4.1.2
+scikit-image     0.25.2
+rustworkx        NOT_INSTALLED
+networkx         3.6.1
+numba            0.60.0
+tqdm             4.67.3
+pyarrow          24.0.0
+imagecodecs      NOT_INSTALLED
+ilpy             NOT_INSTALLED
+COMPETITION_MOUNTS = /kaggle/input/competitions/biohub-cell-tracking-during-development
+14.15A3_BUNDLE_INTEGRITY_PASS
+RUNTIME_IMPORT_VERIFIED=NO
+
+Persistence UI:
+Version History displayed Starting Fresh and no saved versions.
+Opening the notebook /data URL redirected to /edit, not a saved Output page.
+Refreshed working directory showed only .virtual_documents.
+Input sidebar: competition plus source Dataset, no dependency Dataset.
+Failed to save draft appeared during the audit. Autosave is not persistence evidence.
+The pre-audit draft with historical outputs was downloaded and preserved locally.

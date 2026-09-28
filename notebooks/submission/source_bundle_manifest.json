@@ -1,0 +1,130 @@
+{
+  "stage": "14.15A-1",
+  "status": "SOURCE_AND_WEIGHTS_BUNDLE_ONLY",
+  "pipeline": "FROZEN_V9_WARM2_PORTABLE_SUBMISSION_V1",
+  "files": {
+    "data/raw/competition/biohub-cell-tracking-during-development/sample_submission.csv": {
+      "sha256": "263dec32a126192f0ce4d5443b7432940fbeedf0d7ae4130156bf83657defc40",
+      "bytes": 890
+    },
+    "external/official/scripts/augmentations.py": {
+      "sha256": "a929e73a2d6f963f2d9dc7003d96cf7c8ff4476e33601cdc1ea92cbb6604d37b",
+      "bytes": 1876
+    },
+    "external/official/scripts/csv_to_geffs.py": {
+      "sha256": "914d151495c2c0f6bcab1feeebc6d0452b0ec63175cbce3b8774d20f79fa6f9a",
+      "bytes": 2887
+    },
+    "external/official/scripts/dataspec.py": {
+      "sha256": "a1454dc5feb9a794dff4e6b0a9f98a75ad69e0bb1d459911de6faa491d18c2f6",
+      "bytes": 1215
+    },
+    "external/official/scripts/evaluate.py": {
+      "sha256": "03ad4049530d3682c77435194e5d921981f331df3462abcde4a7156d1a57b7d3",
+      "bytes": 5219
+    },
+    "external/official/scripts/geffs_to_csv.py": {
+      "sha256": "ecb8b121effb99f7889e6c9936f495fba6d98ea1bb541a2d1b1fb9f633bc9796",
+      "bytes": 3131
+    },
+    "external/official/src/tracking_cellmot/__init__.py": {
+      "sha256": "f9df2098dd85934d0b0d48d477420b1f9ed20a9a55ca6294a1874b964e9166e6",
+      "bytes": 79
+    },
+    "external/official/src/tracking_cellmot/division_metrics.py": {
+      "sha256": "0635c38621a38f1eb4b55a302b4a817a88e9094930dfc2dab16faeeee60f4dc9",
+      "bytes": 20488
+    },
+    "external/official/src/tracking_cellmot/img_proc.py": {
+      "sha256": "00e8ef0adc8b39f1aaaa547ea6197b906bf9e8c009e339d3e95f8f8dbf31be3f",
+      "bytes": 5319
+    },
+    "external/official/src/tracking_cellmot/io.py": {
+      "sha256": "efae135b088cecaab463d889f16c885ef6da3ad27b0747327d8ddc28d866b7bd",
+      "bytes": 13485
+    },
+    "external/official/src/tracking_cellmot/metrics.py": {
+      "sha256": "cfdd596e3f8909cca14db0682889738b19ff75c3808b3773175aba9367ca7444",
+      "bytes": 19602
+    },
+    "external/official/src/tracking_cellmot/models/__init__.py": {
+      "sha256": "0861b0bf0d5a574dd0d582c529b763e75c8d271f4df48df15fae3cf5b5fbb127",
+      "bytes": 248
+    },
+    "external/official/src/tracking_cellmot/models/simple_node_transformer.py": {
+      "sha256": "b97209edeb03840e80d903e3e2a8c81c520641c8ef343f6ca2904d0f80db064e",
+      "bytes": 7229
+    },
+    "external/official/src/tracking_cellmot/models/temporal_unet.py": {
+      "sha256": "d809c35d42f504161074ddeaaa7aee5b407e5bca7f9b4e1d5f9b2ff345666cac",
+      "bytes": 5112
+    },
+    "models/official_baseline/official_baseline_fold0_warm2_lr1e5/split_0/config.json": {
+      "sha256": "e9b4e396c58081bca08adf8275bd0bd1c2d3fd6eb091a1912a5116cb6de7b50a",
+      "bytes": 165
+    },
+    "models/official_baseline/official_baseline_fold0_warm2_lr1e5/split_0/edge_predictor_best.pth": {
+      "sha256": "31d209bfde1fd5bbf3b2a661cdb4a25bb72922b832d315ee5a75cc32f44656c1",
+      "bytes": 8355927
+    },
+    "scripts/predict_unet_transformer_mps.py": {
+      "sha256": "23b76f7c90ffe698e955efee2b4333277a07f5b58b7eff6e580f2bb2ff49bc55",
+      "bytes": 26728
+    },
+    "scripts/train_unet_transformer_mps.py": {
+      "sha256": "3e9d0fb8f7f3e95e21d0af0c788a9e45d2bf67b771895d28efc4aa853ab506ac",
+      "bytes": 57656
+    },
+    "src/biohub_cell_tracking/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "src/biohub_cell_tracking/association_audit.py": {
+      "sha256": "2118577e96b49fb7b0e0485c03e4b452721ca89a04a1d9cf5b01cadc0dcad2b7",
+      "bytes": 35924
+    },
+    "src/biohub_cell_tracking/association_replay.py": {
+      "sha256": "d18fd8a4fec5d47148cd45eb3a4113861a759971bf9ea2f3a931dc0974ef3aa9",
+      "bytes": 15509
+    },
+    "src/biohub_cell_tracking/division_audit.py": {
+      "sha256": "93ff26c7beafb6bb4b4e773f93e89cddc047690d8cf5a87caca997a8ac426e7f",
+      "bytes": 43189
+    },
+    "src/biohub_cell_tracking/division_geometry.py": {
+      "sha256": "b42f635a08ff680e26915a733000ff3de13def4699317a046fe5759e18be0f0e",
+      "bytes": 16465
+    },
+    "src/biohub_cell_tracking/frozen_v9.py": {
+      "sha256": "486ae177e8709ddd17bf20d61dc628477a78d7434cd54a7ecf3729915b36ab17",
+      "bytes": 55823
+    },
+    "src/biohub_cell_tracking/stage12_b12_portable.py": {
+      "sha256": "d63574a8d8f9521172fb26284b612330da53960527e529f5ffcb7b81c7cb87f1",
+      "bytes": 26110
+    },
+    "src/biohub_cell_tracking/stage12_confirmed_rewire.py": {
+      "sha256": "52c183629ecf80d0fa1568c8c3b2fa3a4ad6f58a1c34a98dc2bf59feca0ffad0",
+      "bytes": 59503
+    },
+    "src/biohub_cell_tracking/stage12_portable_current_best.py": {
+      "sha256": "b0b598da12bd62d321448b5829adfa49dbbc68d8a898c9d590e8981d8fc706e0",
+      "bytes": 69866
+    },
+    "src/biohub_cell_tracking/stage12_post_v2_graph_provider.py": {
+      "sha256": "3caec19d4446bd44415c3039d8e16e2f7b6ac7cdd03d4ba27941bb583055470e",
+      "bytes": 2527
+    },
+    "src/biohub_cell_tracking/stage12_suppressed_peak_provider.py": {
+      "sha256": "6b8c9a2d24281917d454114491eb282c68468a211d6ea2f4e5248af6003dff28",
+      "bytes": 27813
+    }
+  },
+  "omitted_non_code_resources": [],
+  "runtime_dependencies_included": false,
+  "tracksdata_linux_wheel_included": false,
+  "kaggle_inference_run": false,
+  "gt_read": false,
+  "evaluator_run": false,
+  "kaggle_submission": false
+}

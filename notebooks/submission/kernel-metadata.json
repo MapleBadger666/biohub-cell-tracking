@@ -1,0 +1,19 @@
+{
+  "id": "markdd520/biohub-frozen-v9-reviewed-submission",
+  "title": "Biohub Frozen V9 Reviewed Submission",
+  "code_file": "frozen_v9_submission.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [
+    "markdd520/biohub-frozen-v9-warm2-bundle"
+  ],
+  "kernel_sources": [
+    "markdd520/biohub-14-15-wheelhouse-rebuild-20260923"
+  ],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ]
+}
