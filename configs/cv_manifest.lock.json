@@ -1,0 +1,15 @@
+{
+  "balance_score": 0.8097901436759866,
+  "best_seed": 1640,
+  "n_datasets": 199,
+  "n_folds": 5,
+  "rules": [
+    "dataset-level split only",
+    "prefix-stratified",
+    "density-stratified",
+    "division-balanced",
+    "shared across all model experiments"
+  ],
+  "sha256": "c30ae9625957c5c1a2b68b8808638bdbce4f71f72432c7e0e31f9629e91b4e0f",
+  "version": 1
+}

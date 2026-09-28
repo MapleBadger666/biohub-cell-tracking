@@ -1,0 +1,57 @@
+Warm2 Fold0 Frozen V9 reproduction
+  datasets    40
+  det=.995    predictions/heqiuyan/official_baseline_fold0_warm2_lr1e5_det0995/split_0
+  det=.9975   predictions/heqiuyan/official_baseline_fold0_warm2_lr1e5_det09975/split_0
+  config      K=9 p2>=0.8 residual<=4.0um
+
+  candidates 01/40
+  candidates 10/40
+  candidates 20/40
+  candidates 30/40
+  candidates 40/40
+  evaluated 01/40
+  evaluated 10/40
+  evaluated 20/40
+[09/28/26 03:28:45] WARNING  No matching nodes found.        _base_graph.py:1303
+  evaluated 30/40
+[09/28/26 03:28:48] WARNING  No matching edges found.        _base_graph.py:1328
+  evaluated 40/40
+Candidate counts  (1.7 min total)
+  single_opportunities             253757  expected     253757  OK
+  single_policy                      3945  expected       3945  OK
+  isolated_nodes                    70018  expected      70018  OK
+  isolated_with_local_pair          22085  expected      22085  OK
+  strict_two_policy                  2289  expected       2289  OK
+
+Intervention counts
+  single_added                       3945  expected       3945  OK
+  two_requested                      2289  expected       2289  OK
+  two_added                          2111  expected       2111  OK
+  associations_added                 4222  expected       4222  OK
+  two_missing_endpoint                  0  expected          0  OK
+  two_degree_conflict                  35  expected         35  OK
+  two_existing_edge_conflict          143  expected        143  OK
+  cleanup_removed                   80922  expected      80922  OK
+
+Overall metrics
+  edge_jaccard                  0.774393229  expected   0.774393  delta  2.29e-07  OK
+  adj_edge_jaccard              0.767074928  expected   0.767075  delta  7.23e-08  OK
+  division_jaccard              0.038461538  expected   0.038462  delta  4.62e-07  OK
+  node_recall                   0.956612481  expected   0.956612  delta  4.81e-07  OK
+  score                         0.770921082  expected   0.770921  delta  8.16e-08  OK
+
+Prefix metrics
+  44b6 (n=15)
+  44b6 edge_jaccard             0.774346793  expected   0.774347  delta  2.07e-07  OK
+  44b6 adj_edge_jaccard         0.767282864  expected   0.767283  delta  1.36e-07  OK
+  44b6 division_jaccard         0.000000000  expected   0.000000  delta  0.00e+00  OK
+  44b6 node_recall              0.962260096  expected   0.962260  delta  9.57e-08  OK
+  44b6 score                    0.767282864  expected   0.767283  delta  1.36e-07  OK
+  6bba (n=25)
+  6bba edge_jaccard             0.774404221  expected   0.774404  delta  2.21e-07  OK
+  6bba adj_edge_jaccard         0.767025707  expected   0.767026  delta  2.93e-07  OK
+  6bba division_jaccard         0.046511628  expected   0.046512  delta  3.72e-07  OK
+  6bba node_recall              0.953223912  expected   0.953224  delta  8.82e-08  OK
+  6bba score                    0.771676870  expected   0.771677  delta  1.30e-07  OK
+
+PASS — Warm2 Fold0 Frozen V9 reproduction matches the locked result.

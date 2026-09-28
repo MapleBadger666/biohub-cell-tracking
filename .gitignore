@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models / large artifacts
+models/*
+predictions/*
+submissions/*.csv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.kaggle/
+kaggle.json
+
+# Source-locked official competition repository
+external/official/
+
+# Publish code and curated documentation, not local research artifacts
+data/
+models/
+predictions/
+submissions/
+reports/
+scratchpad/
+kaggle/
+notebooks/
+.vscode/
+.env.*
+*.pem
+*.key
+*.pth
+*.pt
+*.pkl
+*.npz
+*.npy
+*.zip
+*.whl
+*.bak
+*.pre_*
+scripts/*.pre_*.py
