@@ -17,6 +17,8 @@ The [transcript](evidence/frozen_v9_reproduction.txt) is retained as evidence. T
 
 The failures indicate unresolved provenance contracts. Expected hashes have not been rewritten and the tests have not been skipped or marked as passing. The one portfolio portability edit uses the test file's location instead of a developer-specific absolute root in `test_stage12_v2_invented_sort_repair.py`; it does not alter a research algorithm or expected source hash.
 
+The cleanup audit recovered the earlier [training source before division-positive sampling](../research/legacy/train_unet_transformer_mps_before_divpos.py), whose SHA256 is exactly the historical training expectation `c6cd…cbc1`. It is retained as an archive, without replacing the current script or changing the failing test's contract.
+
 ## Reviewed Kaggle execution
 
 The reviewed Frozen V9 Notebook completed offline GPU execution, both detection thresholds, frozen graph reconstruction, structural CSV validation, and official CSV/GEFF roundtrip checks. Its saved output had 282,579 rows. The prediction file is deliberately excluded from GitHub.

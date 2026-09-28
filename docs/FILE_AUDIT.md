@@ -7,7 +7,7 @@ The audit found additional source excluded by broad notebook and scratch-directo
 - All 14 numbered exploratory notebooks, with identical cell sources and public execution outputs removed.
 - The reviewed submission notebook and saved offline wheelhouse builder.
 - Three earlier recovery draft notebooks, eight recovery Python files, and their dated audit records.
-- Two distinct historical scripts, the Warm2 model architecture, source bundle manifest, verified wheelhouse hashes, Kaggle configuration, submission record, and offline environment report.
+- Seven distinct historical scripts, the Warm2 model architecture, source bundle manifest, verified wheelhouse hashes, Kaggle configuration, submission record, and offline environment report. Identical old backups are mapped to an already published file instead of duplicated.
 
 [The source archive manifest](evidence/source_archive_manifest_20260928.json) records original and published SHA256 values and confirms notebook cell-source equality. Notebook execution outputs, original cell metadata, counts, and attachments were preserved locally in `reports/notebook_execution_archive_20260928/` before stripping public copies. Python source copies are byte-identical.
 
