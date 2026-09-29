@@ -1,4 +1,4 @@
-# Validation evidence — September 28, 2026
+# Validation evidence — September 28–29, 2026
 
 ## Official baseline reproduction
 
@@ -23,7 +23,7 @@ The cleanup audit recovered the earlier [training source before division-positiv
 
 The reviewed Frozen V9 Notebook completed offline GPU execution, both detection thresholds, frozen graph reconstruction, structural CSV validation, and official CSV/GEFF roundtrip checks. Its saved output had 282,579 rows. The prediction file is deliberately excluded from GitHub.
 
-Kaggle identity verification cleared the submission restriction, and the authenticated competition page accepted Version 2 on September 28, 2026. The last recorded competition status was `Notebook Running`; there is no confirmed leaderboard score, rank, medal, or prize to report. The saved execution is an operational check, not a new metric improvement. The [submission record](../notebooks/submission/review_status.json) preserves the earlier rejected API attempt as history, followed by the accepted web submission.
+Kaggle identity verification cleared the submission restriction, and the authenticated competition page accepted Version 2 on September 28, 2026. On September 29, the [submission page](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/submissions) showed **Succeeded** and a **public score of 0.823**, displayed to three decimal places. The [dated result record](evidence/kaggle_public_result_20260929.json) links the exact notebook version. A final private score, rank, medal, or prize is not claimed. The public score is on competition evaluation data, whereas 0.770921082 is the separately reproduced local Fold0 baseline; they are not a before/after experiment. The saved execution and local checks establish submission validity, not a new measured improvement over another Kaggle submission. The [September 28 review snapshot](../notebooks/submission/review_status.json) preserves the earlier rejected API attempt and accepted web submission before scoring finished.
 
 ## Reproducibility scope
 

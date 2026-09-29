@@ -1,0 +1,18 @@
+{
+  "competition": "biohub-cell-tracking-during-development",
+  "account": "markdd520",
+  "submission": "Biohub Frozen V9 Reviewed Submission - Version 2",
+  "notebook_version_id": 353560511,
+  "pipeline": "Frozen V9 Warm2; unchanged model and graph policies from reviewed Version 2",
+  "submission_status": "Succeeded",
+  "public_score_displayed": "0.823",
+  "public_score_display_decimals": 3,
+  "private_score": null,
+  "rank": null,
+  "observed_at_utc": "2026-09-29T19:00:39Z",
+  "source": "Authenticated Kaggle competition submissions page",
+  "submission_page": "https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/submissions",
+  "notebook_version_page": "https://www.kaggle.com/code/markdd520/biohub-frozen-v9-reviewed-submission?scriptVersionId=353560511",
+  "local_fold0_baseline_score": 0.770921082,
+  "interpretation": "Kaggle public score and local Fold0 reproduction use different evaluation data; their difference is not an estimate of model improvement."
+}

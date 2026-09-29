@@ -2,6 +2,8 @@
 
 **A research pipeline for detecting cells in 3D microscopy and reconstructing their lineages over time.** Built for the [Biohub Kaggle competition](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development), with an emphasis on reproducible evaluation, anisotropic geometry, and auditable graph reconstruction.
 
+**Kaggle public leaderboard score: 0.823** · Frozen V9 Warm2, Version 2 · [submission result (account view)](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/submissions) · [reviewed notebook source](notebooks/submission/frozen_v9_submission.ipynb)
+
 Python 3.11 · PyTorch · NumPy/SciPy · Polars · Zarr · tracksdata
 
 ## Project highlights
@@ -31,6 +33,12 @@ flowchart LR
 
 Detection thresholds are **0.995 / 0.9975**. Inference uses detection flip TTA and physical pooling at **3 µm**. Frozen V9 does not use ILP association or synthetic node insertion. Training, ground-truth evaluation, and prediction-only submission execution are separate workflows.
 
+## Kaggle competition result
+
+The reviewed **Frozen V9 Warm2, Version 2** submission [succeeded on Kaggle](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development/submissions) with a **public leaderboard score of 0.823** (the precision displayed by Kaggle), checked September 29, 2026. The [submitted Kaggle notebook version](https://www.kaggle.com/code/markdd520/biohub-frozen-v9-reviewed-submission?scriptVersionId=353560511) ran offline inference and passed the saved CSV/GEFF roundtrip checks; its source is [archived here](notebooks/submission/frozen_v9_submission.ipynb) for public code review. The Kaggle submission page may require account access. [Dated result record](docs/evidence/kaggle_public_result_20260929.json).
+
+This is a public leaderboard score. A final private score and rank are not claimed. The local Fold0 baseline reproduction below used different evaluation data and is reported separately; the two numbers do not demonstrate a model improvement.
+
 ## Verified local result
 
 On **40 held-out Fold0 datasets**, a fresh run on September 28, 2026 reproduced the locked Warm2 Frozen V9 result with the official evaluator:
@@ -43,7 +51,7 @@ On **40 held-out Fold0 datasets**, a fresh run on September 28, 2026 reproduced 
 | Division Jaccard | 0.038461538 |
 | Node recall | 0.956612481 |
 
-This is **local baseline reproduction**, not a leaderboard score or a claimed new improvement. Division recovery remains a weakness. The reviewed Kaggle Notebook completed both inference passes and official CSV roundtrip checks. Kaggle accepted Version 2 on September 28, 2026; the last recorded competition status was `Notebook Running`, with no leaderboard score yet.
+This is **local baseline reproduction**, not a leaderboard score or a claimed new improvement. Division recovery remains a weakness. The reviewed Kaggle Notebook completed both inference passes and official CSV roundtrip checks.
 
 See [validation evidence and limitations](docs/VALIDATION.md), the [official reproduction transcript](docs/evidence/frozen_v9_reproduction.txt), and the [research design](docs/RESEARCH.md).
 
